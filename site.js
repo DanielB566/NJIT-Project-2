@@ -53,6 +53,9 @@ const vue_app = Vue.createApp({
                   const [year, month, day] = dateArray;
                   const monthT = months[month - 1];
                   return `${monthT} ${day}, ${year}`;
+            },
+            getPosterIndex(currentIndex, posters){
+                  return (currentIndex % posters.length) +1;
             }
       }
 })

@@ -40,7 +40,7 @@
 	            <div class="thumbnail">
 
 						<img class="poster img-fluid" v-on:click="movies.posterindex++" :src="movies.posters[movies.posterindex % movies.posters.length]" />
-						<div class="imageInfo">Poster {{movies.posterindex % movies.posters.length + 1}} of {{movies.posters.length}}</div>
+						<div class="imageInfo">Poster {{ getPosterIndex(movies.posterindex, movies.posters) }} of {{ movies.posters.length }}</div>
 
 						<p class="title">{{movies.title}} ({{movies.country}})</p>
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movies.iscore}} </p>
