@@ -82,5 +82,34 @@
             "likes": 1106,
             "dislikes": 89,
             "posterindex": 0  
+      },
+      {
+            "title": "WALL E",
+            "iscore": 8.4,
+            "rating": "G",
+            "runtime": 98,
+            "released": [2008, 6, 27],
+            "country": "USA",
+            "posters": ["img/walle1.png", "img/walle2.png"],
+            "imdb": "https://www.imdb.com/title/tt0910970/?ref_=tt_mv_close",
+            "website": "https://www.pixar.com/wall-e",
+            "likes": 1045,
+            "dislikes": 128,
+            "posterindex": 0     
+      },
+      {
+            "title": "Spider-Man: Into the Spider-Verse",
+            "iscore": 8.4,
+            "rating": "PG",
+            "runtime": 117,
+            "released": [2018, 12, 14],
+            "country": "USA",
+            "posters": ["img/spiderman1.png", "img/spiderman2.png"],
+            "imdb": "https://www.imdb.com/title/tt4633694/?ref_=chttp_t_64",
+            "website": "https://www.sonypictures.com/movies/spidermanintothespiderverse",
+            "likes": 1304,
+            "dislikes": 89,
+            "posterindex": 0     
       }
+
 ]
