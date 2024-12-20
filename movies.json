@@ -68,5 +68,19 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Cars",
+            "iscore": 7.3,
+            "rating": "G",
+            "runtime": 116,
+            "released": [2006, 6, 9],
+            "country": "USA",
+            "posters": ["img/cars1.png", "img/cars2.png"],
+            "imdb": "https://www.imdb.com/title/tt0317219/?ref_=nv_sr_srsg_1_tt_5_nm_2_in_0_q_Cars",
+            "website": "https://cars.disney.com/",
+            "likes": 1106,
+            "dislikes": 89,
+            "posterindex": 0  
       }
 ]
